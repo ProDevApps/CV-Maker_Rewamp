@@ -1,0 +1,464 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">-->
+    <!--        <item name="colorAccent">@color/colorAccent</item>-->
+    <!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--    </style>-->
+
+    <style name="AppTheme_Button_Borderless" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/text_size_s</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+
+    <style name="AppTheme_NoActionBar" parent="@style/AppTheme">
+        <item name="android:actionButtonStyle">@style/ActionButton</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionButton" parent="@android:style/Widget.ActionButton">
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+    </style>
+
+    <style name="ResumeSample10_2_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="ResumeSample10_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/rect_border_black</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginLeft">@dimen/_1sdp</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="ResumeSample10_title_right">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/rect_border_orange</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:layout_marginRight">@dimen/_20sdp</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="ResumeSample11_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="ResumeSample11_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/resume2_title_bg</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginLeft">@dimen/_35sdp</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="ResumeSample11_titleleft">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="ResumeSample12_1_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/resume12_grey</item>
+        <item name="android:layout_marginLeft">@dimen/_1sdp</item>
+        <item name="android:layout_marginRight">@dimen/_5sdp</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="ResumeSample12_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="ResumeSample12_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/rect_border_yellow</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_1sdp</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="ResumeSample12_titleleft">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/resume12_grey</item>
+        <item name="android:background">@drawable/rect_border_grey</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginRight">@dimen/_28sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_1sdp</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="ResumeSample13_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/rect_resume13_orange</item>
+        <item name="android:padding">@dimen/_3sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_1sdp</item>
+        <item name="android:layout_marginRight">@dimen/_1sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_1sdp</item>
+        <item name="android:fontFamily">@font/lato_bold</item>
+    </style>
+
+    <style name="ResumeSample14_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/rect_resume14_red</item>
+        <item name="android:padding">@dimen/_3sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_1sdp</item>
+        <item name="android:layout_marginRight">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_1sdp</item>
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+    </style>
+
+    <style name="ResumeSample14_titleleft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/rect_resume14_red</item>
+        <item name="android:padding">@dimen/_3sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_1sdp</item>
+        <item name="android:layout_marginRight">@dimen/_5sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_1sdp</item>
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+    </style>
+
+    <style name="ResumeSample15_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/rect_resume15_black</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample15_title_left">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample1_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="ResumeSample1_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@color/resume1_title_bg</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="ResumeSample2_2_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample2_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample2_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@color/resume2_title_bg</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample3_1_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="ResumeSample3_2_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="ResumeSample3_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/resume2_title_bg</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginLeft">@dimen/_26sdp</item>
+        <item name="android:fontFamily">@font/metropolis_bold</item>
+    </style>
+
+    <style name="ResumeSample3_titleleft">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/metropolis_bold</item>
+    </style>
+
+    <style name="ResumeSample4_1_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample4_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/rounded_rect_green</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginLeft">@dimen/_4sdp</item>
+        <item name="android:layout_marginRight">@dimen/_1sdp</item>
+        <item name="android:fontFamily">@font/metropolis_bold</item>
+    </style>
+
+    <style name="ResumeSample4_titleleft">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/rounded_rect_green</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_marginRight">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/metropolis_bold</item>
+    </style>
+
+    <style name="ResumeSample5_1_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="ResumeSample5_2_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="ResumeSample5_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/resume5_title_text</item>
+        <item name="android:background">@color/resume5_title_bg</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/lato_bold</item>
+    </style>
+
+    <style name="ResumeSample6_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample6_text_blue">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/resume6_sky</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample6_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/resume6_sky</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:fontFamily">@font/metropolis_bold</item>
+    </style>
+
+    <style name="ResumeSample7_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/resume7_grey_text</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ResumeSample7_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/resume7_grey_text</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/rect_resume7</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginLeft">@dimen/_7sdp</item>
+        <item name="android:layout_marginRight">@dimen/_7sdp</item>
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+    </style>
+
+    <style name="ResumeSample8_1_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="ResumeSample8_2_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="ResumeSample8_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/rect_resume8_black</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginRight">@dimen/_3sdp</item>
+        <item name="android:fontFamily">@font/raleway_light</item>
+    </style>
+
+    <style name="ResumeSample8_titleleft">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/rect_resume8_white</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:fontFamily">@font/raleway_light</item>
+    </style>
+
+    <style name="ResumeSample9_2_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:fontFamily">@font/tinos_regular</item>
+    </style>
+
+    <style name="ResumeSample9_text">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:fontFamily">@font/tinos_regular</item>
+    </style>
+
+    <style name="ResumeSample9_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@color/resume9_title_bg</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/lobster_regular</item>
+    </style>
+
+
+    <style name="TedAdmobDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="TedText" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/black87</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TedText_Body" parent="@style/TedText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black87</item>
+    </style>
+
+    <style name="TedText_Caption" parent="@style/TedText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black54</item>
+    </style>
+
+    <style name="TedText_Display" parent="@style/TedText">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/black54</item>
+    </style>
+
+    <style name="TedText_Headline" parent="@style/TedText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black87</item>
+    </style>
+
+    <style name="TedText_Subhead" parent="@style/TedText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black87</item>
+    </style>
+
+    <style name="TedText_Title" parent="@style/TedText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black87</item>
+    </style>
+</resources>
