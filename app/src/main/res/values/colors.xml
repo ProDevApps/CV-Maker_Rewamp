@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="colorAccent">#158784</color>
+    <color name="colorButtonNormal">#fffffb</color>
+    <color name="colorPrimary">#1dc8c8</color>
+    <color name="colorPrimaryDark">#158784</color>
+
+    <color name="toolbar">#1E1A2C</color>
+    <color name="theamcolor">#fc0029</color>
+    <color name="bg">#f5f6fa</color>
+    <color name="black20">#14000000</color>
+    <color name="black30">#1d000000</color>
+    <color name="black54">#8a000000</color>
+    <color name="black87">#de000000</color>
+    <color name="card_green">#1dc8c8</color>
+    <color name="color_academic">#3597c4</color>
+    <color name="color_experience">#fa8f4d</color>
+    <color name="color_hobbies">#d41b42</color>
+    <color name="color_language">#e74ca2</color>
+    <color name="color_personalinfo">#7e47a2</color>
+    <color name="color_reference">#d83672</color>
+    <color name="color_resumesample">#c38544</color>
+    <color name="color_skill">#e7de39</color>
+    <color name="divider">#333333</color>
+    <color name="flat_pressed">#66999999</color>
+    <color name="grey">#cfd1d2</color>
+    <color name="home_btn">#ff0000</color>
+    <color name="list_color1">#f0eeada6</color>
+    <color name="list_color2">#aed6f1</color>
+    <color name="list_color3">#a9dfbf</color>
+    <color name="list_color4">#d2b4de</color>
+    <color name="list_color5">#d5dbdb</color>
+    <color name="list_color6">#fcc689</color>
+    <color name="list_color7">#f9e79f</color>
+    <color name="overlay">#aa1c1c1c</color>
+    <color name="resume10_orange">#fcc689</color>
+    <color name="resume11_yellow">#fec935</color>
+    <color name="resume12_grey">#22435f</color>
+    <color name="resume12_yellow">#f1c40f</color>
+    <color name="resume13_orange">#f58a1f</color>
+    <color name="resume14_red">#e42a3e</color>
+    <color name="resume1_title_bg">#158784</color>
+    <color name="resume2_green">#158784</color>
+    <color name="resume2_title_bg">#2e3737</color>
+    <color name="resume3_grey">#bdbdbd</color>
+    <color name="resume4_green">#568795</color>
+    <color name="resume5_orange">#f69223</color>
+    <color name="resume5_title_bg">#d0d2d1</color>
+    <color name="resume5_title_text">#1c1c1c</color>
+    <color name="resume6_sky">#028bad</color>
+    <color name="resume7_grey_text">#496b7e</color>
+    <color name="resume7_sky">#84b6b4</color>
+    <color name="resume9_title_bg">#3f88c8</color>
+
+    <color name="tedBtnHighlight">#1f3195</color>
+    <color name="tedBtnPrimary">#3f51b5</color>
+    <color name="textColorPrimary">#fffffb</color>
+    <color name="textColorPrimaryInverse">#1c1c1c</color>
+    <color name="text_color">#a7a9ac</color>
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#fff</color>
+    <color name="windowBackground">#1c1c1c</color>
+
+</resources>

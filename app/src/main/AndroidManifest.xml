@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CVMaker"
+        tools:targetApi="31">
+     <!--   <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+-->
+
+
+        <activity
+            android:name="com.professorapps.cvmaker.HomeActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme_NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.professorapps.cvmaker.PrivacyActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.ViewCreatePdfActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.ResumeSamplesActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.AboutmeActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+
+        <activity
+            android:name="com.professorapps.cvmaker.MainActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.crop.BasicActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.InterviewTipsActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.PersonalinfoActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.AcademicActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.ExperienceActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.ReferenceActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.SkillsActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.LanguageActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.HobbiesActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.ResumeSample1Activity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.MyCreationActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.professorapps.cvmaker.FullScreenCreationActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+    </application>
+
+</manifest>

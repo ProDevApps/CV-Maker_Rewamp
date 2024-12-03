@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    android:background="@drawable/border_pink"
+    android:orientation="vertical">
+
+    <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+        android:id="@+id/imgsticker"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_205sdp"
+        android:scaleType="fitXY"
+        app:siShape="@drawable/shadow_rounded_rect" />
+</LinearLayout>
